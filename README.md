@@ -1,4 +1,4 @@
-# 🚀 Phrasis – Project Management Platform
+# 🚀 WorkOra – Project Management Platform
 
 **From Ideas to Execution.**
 
