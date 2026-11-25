@@ -1,36 +1,177 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Phrasis – Project Management Platform
 
-## Getting Started
+**From Ideas to Execution.**
 
-First, run the development server:
+Phrasis is a modern and responsive Project Management Platform designed to help users organize projects, manage tasks, track progress, and improve productivity through a clean and intuitive interface.
+
+The project focuses on providing an organized workspace where users can manage their tasks and projects efficiently.
+
+## 🌐 Live Demo
+
+**Live Application:** https://phrasis.vercel.app/
+
+## ✨ Features
+
+### 📊 Interactive Dashboard
+- Overview of workspace activity.
+- Project and task statistics.
+- Task completion insights.
+- Priority distribution.
+- Recent activities and upcoming tasks.
+
+### ✅ Task Management
+- Create, update, and delete tasks.
+- Set task priorities: Low, Medium, and High.
+- Manage task statuses.
+- Assign due dates.
+- Search, filter, and sort tasks.
+- Kanban-style task management.
+- Bulk task operations.
+- CSV import and export.
+- Task comments, notes, and activity history.
+
+### 📁 Project Management
+- Create, edit, and delete projects.
+- Track project progress.
+- Manage project statuses.
+- View project-related task statistics.
+- Search and filter projects.
+
+### 📱 Responsive Design
+- Responsive user interface.
+- Mobile-friendly navigation.
+- Optimized layouts for different screen sizes.
+
+### 💾 Data Persistence
+- Browser-based data storage using LocalStorage.
+- IndexedDB support for attachment data.
+- Data remains available after refreshing the browser.
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js | React framework |
+| React.js | User interface development |
+| TypeScript | Static typing and type safety |
+| Tailwind CSS | Styling and responsive design |
+| LocalStorage | Client-side data persistence |
+| IndexedDB | Browser-based attachment storage |
+| Git & GitHub | Version control |
+| Vercel | Deployment |
+
+## 📂 Project Structure
+
+```text
+phrasis/
+│
+├── public/
+│
+├── src/
+│   ├── app/
+│   │   ├── page.tsx
+│   │   ├── projects/
+│   │   │   └── page.tsx
+│   │   └── tasks/
+│   │       └── page.tsx
+│   │
+│   └── components/
+│       └── layout/
+│           └── Sidebar.tsx
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+└── README.md
+```
+
+## ⚙️ Getting Started
+
+Follow these steps to run Phrasis locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/vikasthakur8815-ui/phrasis.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd phrasis
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Open in Browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+http://localhost:3000
+```
 
-## Learn More
+## 🏗️ Build for Production
 
-To learn more about Next.js, take a look at the following resources:
+To create a production build:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To run the production build locally:
 
-## Deploy on Vercel
+```bash
+npm run start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚧 Current Development Status
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Version 1.0 – Beta**
+
+The first version focuses on frontend functionality, task management, project management, responsive design, and browser-based data persistence.
+
+Phrasis is currently a frontend-based application. It does not yet provide backend-powered multi-user collaboration or centralized cloud data synchronization.
+
+## 🔮 Future Improvements
+
+Future development will focus on:
+
+- Backend integration using FastAPI.
+- PostgreSQL database integration.
+- Secure user authentication and authorization.
+- Cloud-based data storage.
+- Team collaboration and multi-user support.
+- Real-time notifications.
+- Advanced analytics and reporting.
+- Improved security and scalability.
+
+These improvements are part of the project's ongoing development roadmap.
+
+## 🎯 Project Objective
+
+The objective of Phrasis is to build a practical project management solution while exploring modern web development technologies, software architecture, and real-world application development.
+
+## 👨‍💻 Developer
+
+**Vikas Singh**
+
+- GitHub: [vikasthakur8815-ui](https://github.com/vikasthakur8815-ui)
+- Project Repository: [Phrasis](https://github.com/vikasthakur8815-ui/phrasis)
+
+---
+
+⭐ If you find this project interesting, consider giving the repository a star!
+
+**Phrasis – From Ideas to Execution.**
