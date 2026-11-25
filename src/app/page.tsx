@@ -280,7 +280,7 @@ export default function DashboardPage() {
     return (
       <div className="flex min-h-screen bg-slate-50">
         <Sidebar />
-        <main className="flex flex-1 items-center justify-center">
+        <main className="flex flex-1 items-center justify-center pt-20 md:pt-0">
           <p className="text-sm text-slate-500">Loading dashboard...</p>
         </main>
       </div>
@@ -291,7 +291,7 @@ export default function DashboardPage() {
     <div className="flex min-h-screen bg-slate-50">
       <Sidebar />
 
-      <main className="min-w-0 flex-1 p-4 sm:p-6 lg:p-8">
+      <main className="min-w-0 flex-1 px-4 pb-4 pt-20 sm:px-6 sm:pb-6 sm:pt-20 md:p-6 lg:p-8">
         {/* Header */}
         <header className="mb-8 flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
           <div>

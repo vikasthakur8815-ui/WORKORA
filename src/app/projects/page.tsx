@@ -296,7 +296,7 @@ export default function ProjectsPage() {
       <Sidebar />
 
       {/* MAIN CONTENT */}
-      <main className="min-w-0 flex-1 p-4 sm:p-6 lg:p-8">
+      <main className="min-w-0 flex-1 px-4 pb-4 pt-20 sm:px-6 sm:pb-6 sm:pt-20 md:p-6 lg:p-8">
         <div className="mx-auto max-w-7xl space-y-8">
 
           {/* HEADER */}

@@ -1051,7 +1051,7 @@ export default function TasksPage() {
     <div className="flex min-h-screen bg-slate-50">
       <Sidebar />
 
-      <main className="min-w-0 flex-1 overflow-x-hidden p-8">
+      <main className="min-w-0 flex-1 px-4 pb-4 pt-20 sm:px-6 sm:pb-6 sm:pt-20 md:p-6 lg:p-8">
         {isPreviewOpen && (
           <div className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto bg-black/50 p-4">
            <div className="flex max-h-[90vh] w-full max-w-5xl flex-col overflow-hidden rounded-2xl bg-white p-6 shadow-xl">
