@@ -867,7 +867,7 @@ export default function TasksPage() {
         new Set(headers).size === headers.length;
 
       if (!isValidCSV) {
-        alert("Invalid CSV file! Please upload a valid Phrasis Tasks CSV.");
+        alert("Invalid CSV file! Please upload a valid WorkOra Tasks CSV.");
         event.target.value = "";
         return;
       }

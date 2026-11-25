@@ -24,7 +24,7 @@ export default function Sidebar() {
       {/* Mobile Header */}
       <header className="fixed inset-x-0 top-0 z-40 flex h-16 items-center justify-between border-b border-slate-200 bg-white px-4 shadow-sm md:hidden">
         <Link href="/" className="text-2xl font-bold text-blue-600">
-          Phrasis
+          WorkOra
         </Link>
 
         <button
@@ -57,7 +57,7 @@ export default function Sidebar() {
         <div className="mb-10 flex items-center justify-between">
           <div>
             <h1 className="text-2xl font-bold text-blue-600">
-              Phrasis
+              WorkOra
             </h1>
             <p className="mt-1 text-xs text-slate-400">
               Workspace Platform
@@ -117,7 +117,7 @@ export default function Sidebar() {
       <aside className="hidden min-h-screen w-64 shrink-0 flex-col border-r border-slate-200 bg-white p-5 md:flex">
         <div className="mb-10">
           <h1 className="text-2xl font-bold text-blue-600">
-            Phrasis
+            WorkOra
           </h1>
           <p className="mt-1 text-xs text-slate-400">
             Workspace Platform

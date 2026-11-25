@@ -90,11 +90,11 @@ export default function ComingSoon({
           {/* Bottom section */}
           <div className="flex flex-col items-center justify-between gap-2 border-t border-slate-100 px-6 py-4 text-center sm:flex-row">
             <p className="text-xs text-slate-500">
-              Thank you for being part of Phrasis.
+              Thank you for being part of WorkOra.
             </p>
 
             <p className="text-xs font-semibold text-slate-400">
-              PHRASIS · Better Work Together
+              WORKORA · Better Work Together
             </p>
           </div>
 
